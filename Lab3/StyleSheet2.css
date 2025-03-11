@@ -1,0 +1,24 @@
+﻿body {
+}
+.doan1 {
+    color: red;
+    font-size: 18px;
+}
+.doan2 {
+    color: red;
+    font-size: 18px;
+}
+.doan3 {
+    color: red;
+    font-size: 18px;
+}
+.doan4 {
+    color: green;
+    font-size: 18px;
+}
+.doan1, .doan2, .doan3, .doan4 {
+    font-style: italic;
+}
+
+
+
