@@ -1,0 +1,24 @@
+﻿body {
+}
+
+p > img {
+    width: 20%;
+    height: 150px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: yellow;
+    box-shadow: 0 0 5px blue;
+    object-fit: cover;
+}
+p>img:hover{
+    box-shadow: 0 0 20px red;
+    background-color: aqua;
+}
+.column {
+    width: 95%;
+    
+}
+img {
+    max-width: 95%;
+}
