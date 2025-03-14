@@ -1,0 +1,34 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+}
+.vmenu {
+    padding: 0;
+    margin: 5px;
+    list-style:none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+    .vmenu a {
+        background: url('../images/img1.jpg') ;
+        background-repeat: no-repeat;
+        background-size: 20px 20px;
+        background-position: 5px center;
+        display: block;
+        border-bottom: 1px dotted orangered;
+        color: orangered;
+        font-variant: small-caps;
+        font-size: larger;
+        text-decoration: none;
+        padding: 8px 5px 8px 30px;
+    }
+        .vmenu a:hover {
+            background: url('../images/img6.jpg');
+            background-repeat: no-repeat;
+            background-size: 20px 20px;
+            background-position: 5px center;
+            border-bottom: 1px dotted white;
+            background-color: orangered;
+            color: white;
+            font-weight: bold;
+        }

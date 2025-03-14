@@ -1,0 +1,91 @@
+﻿body {
+    padding: 0px;
+    margin: 0px;
+}
+.container > header {
+    background-image: url('../images/img5.jpg');
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+    position: relative;
+}
+header .top-right {
+    width: 290px;
+    height: 50px;
+    background-color: orangered;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 0 10px blue;
+}
+ header .top-right a {
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    padding: 9px;
+ }
+header .top-right a:hover{
+    color: blue;
+}
+header .company-info{
+    width: 300px;
+    height: 70px;
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+}
+header .company-info h1 {
+    color: white;
+    font-variant: small-caps; 
+    border-bottom: 1px dotted red;
+    margin: 0px;
+    padding: 0px;
+    font-size: 35px;
+    text-shadow: 0 0 5px blue;
+}
+header .company-info h3{
+    margin: 0px;
+    padding: 0px;
+    color: orange;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+.container > nav {
+    line-height: 40px;
+    background-color: orangered;
+    color: white;
+    text-align: left;
+    font-variant: small-caps;
+    padding: 5px;
+}
+.container > nav > a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.container > nav > a:hover {
+    color: yellow;
+}
+.right{
+    display: flex;
+    gap: 20px;
+}
+.left {
+    display: flex;
+    gap: 10px;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: orange;
+}
+.menu a {
+    text-decoration: none; 
+    color: white;
+}
+
+
+

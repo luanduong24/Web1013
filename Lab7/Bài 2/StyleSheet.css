@@ -1,0 +1,60 @@
+﻿body {
+    padding: 20px;
+    margin: 20px;
+}
+
+.col-25{
+    width: 25%;
+    float:left;
+}
+.prod{
+    border-radius:10px;
+    box-shadow: 0 0 10px gray;
+    margin: 10px;
+    padding:10px;
+    text-align:center;
+    position: relative;
+
+}
+.prod>.name{
+    font-variant: small-caps;
+    color: orangered;
+}
+.prod >.image {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+}
+   
+.prod>.price{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family: Impact;
+    font-size: 25px;
+    color: orange;
+}
+.prod>.icons{
+    position: absolute;
+    right: 45px;
+    bottom: 5px;
+    width: 35px;
+
+}
+.prod > .new-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+}
+@media (max-width: 768px) {
+    .prod img {
+        max-width: 120px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .prod img {
+        max-width: 100px; 
+    }
+}
