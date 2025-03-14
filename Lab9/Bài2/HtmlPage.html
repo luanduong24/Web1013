@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <form action="upload.php" method="post" enctype="multipart/form-data">
+            <label>User Name:</label><br />
+            <input type="text" id="txtUserName" /><br />
+            <label>Giới tính:</label>
+            <label><input name="gender" type="radio" checked />Nam</label>
+            <label><input name="gender" type="radio" />Nữ</label><br />
+            <label>Hình ảnh:</label><br />
+            <label><input name="images" type="file" /></label><br />
+            <label>Quốc Tịch:</label><br />
+            <label>
+                <input list="nation" />
+                <datalist id="nation">
+                    <option value="Viet Nam"></option>
+                    <option value="Campuchia"></option>
+                </datalist>
+            </label><br />
+            <label>Sở Thích:</label><br />
+            <label><input name="st" type="checkbox" checked />Thể thao</label>
+            <label><input name="st" type="checkbox" />Âm nhạc</label>
+            <label><input name="st" type="checkbox" />Ẩm thực </label>
+            <label><input name="st" type="checkbox" />Du lịch</label><br />
+            <label>Ghi chú:</label><br />
+            <textarea rows="5" cols="40"></textarea><br />
+            <hr />
+            <label><button type="submit">Đăng ký</button></label>
+            <label><button type="reset">Nhập lại</button></label>
+        </form>
+    </div>
+
+</body>
+</html>

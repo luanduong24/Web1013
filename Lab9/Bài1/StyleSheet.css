@@ -1,0 +1,24 @@
+﻿body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.container{
+    padding: 50px;
+    box-shadow: 0 0 5px blue;
+    border-radius: 10px;
+}
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
