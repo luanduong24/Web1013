@@ -3,6 +3,7 @@
 .column{
     width: 25%;
     float: left;
+    padding-right: 20px;
 }
 .san-pham{
     border-radius: 10px;

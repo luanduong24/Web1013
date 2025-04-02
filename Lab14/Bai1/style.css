@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    display: flex;
+    gap: 20px; /* Khoảng cách giữa box1 và box2 */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc nếu cần */
+    height: 100vh; /* Chiếm toàn bộ chiều cao màn hình */
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    text-align: center;
+    justify-content: center; /* Căn giữa nội dung theo chiều ngang */
+    align-items: center; /* Căn giữa nội dung theo chiều dọc */
+    color: white; /* Chữ màu trắng để dễ nhìn hơn */
+    font-weight: bold; /* Làm chữ đậm hơn */
+    border-radius: 10px; /* Bo góc mềm mại hơn */
+}
+
+.box1 {
+    background-color: olivedrab;
+}
+
+.box2 {
+    background-color: orangered;
+}

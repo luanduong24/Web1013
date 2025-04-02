@@ -1,7 +1,7 @@
 ﻿body {
 }
 .container > header {
-    background-image: url('../images/img5.jpg');
+    background-image: url(https://lh4.googleusercontent.com/nzyYH8KrewZrpRzY5pJYSD8xtI5_UIOlMqq_g2fmSuimtKFSxiR_jW_7ZaAZLfTSL0iKKjljQaJpjEMGmwDW6aaRXDZazGRB1NKBpRWY5H3Ef2-j80Ki1U8L3NEqAvcFme8_es8yADFppP9Ba6yVtnY);
     background-size: 100% 100%;
     height: 0px;
     padding-bottom: 25%;
@@ -95,7 +95,7 @@ header .company-info h1{
         clear: both;
     }
 .menu1 a {
-    background-image: url('../images/traitim.png' );
+    background-image: url(https://png.pngtree.com/png-vector/20220428/ourmid/pngtree-smooth-glossy-heart-vector-file-ai-and-png-png-image_4557871.png);
     background-repeat: no-repeat;
     background-size: 20px 20px;
     background-position: 5px center;

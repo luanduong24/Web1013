@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Quang Luận</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <form>
+            <label >Họ và tên:</label><br />
+            <input class="form-control" type="text" /><br />
+            <fieldset class="form-control">
+                <legend >Giới tính</legend>
+                <input type="radio" id="M" />
+                <label for="M">Nam</label>
+                <input type="radio" id="F" />
+                <label for="F">Nữ</label>
+            </fieldset>
+            <label>Ngày sinh:</label><br />
+            <input class="form-control" type="datetime-local" /><br />
+            <label>Điểm:</label><br />
+            <input class="form-control" type="number" step="0.25" value="0.25" /><br />
+            <label>Nghề nghiệp</label><br />
+            <input class="form-control" list="NN" />
+            <datalist id="NN">
+                <option value="Giáo viên"></option>
+                <option value="Thợ điện"></option>
+                <option value="Kỹ sư"></option>
+            </datalist>
+            <fieldset class="form-control">
+                <legend>Sở thích:</legend>
+                <label><input type="checkbox" />Thể thao</label>
+                <label><input type="checkbox" />Du lịch</label>
+                <label><input type="checkbox" />Âm nhạc</label>
+                <label><input type="checkbox" />Ẩm thực</label>
+            </fieldset>
+            <label>Ghi chú:</label><br />
+            <textarea rows="5" cols="45"></textarea><br />
+            <hr />
+            <label><button class="form-button" type="submit">Đăng ký</button></label>
+            <label><button class="form-button" type="reset">Nhập lại</button></label>
+        </form>
+    </div>
+
+</body>
+</html>

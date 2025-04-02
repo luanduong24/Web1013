@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Hiển Thị 5 Dòng</title>
+    <style>
+        .image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    width: 400px; /* Điều chỉnh theo ý bạn */
+    height: auto;
+    display: flex;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    text-align: center;
+    height: 30px; /* Ban đầu chỉ đủ chứa 1 dòng */
+    overflow: hidden;
+    transform: translateY(0);
+}
+
+.overlay p {
+    margin: 5px 0;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.overlay p:first-child {
+    opacity: 1;
+}
+
+/* Khi hover vào sẽ hiển thị tất cả dòng */
+.image-container:hover .overlay {
+    /* height: auto; */
+
+    padding-bottom: 100px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.image-container:hover .overlay p {
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+    </style>
+</head>
+<body>
+
+<div class="image-container">
+    <img src="img/CNDT1.png" alt="Ảnh">
+    <div class="overlay">
+        <p class="first-line">Dòng 1</p>
+        <p>Dòng 2</p>
+        <p>Dòng 3</p>
+        <p>Dòng 4</p>
+        <p>Dòng 5</p>
+    </div>
+</div>
+
+</body>
+</html>
